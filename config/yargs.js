@@ -16,7 +16,7 @@ const argv = require('yargs')
     .command('crear', 'Guarda en archivo la tarea correspondiente', {
     descripcion: {
         demand: true,
-        alias: 'd',
+        alias: 'l',
         desc: 'Descripcion de Crear',
      }
     })
